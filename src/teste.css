@@ -1,0 +1,128 @@
+:root {
+  --cor-azul-claro: #5bc0eb;
+  --cor-azul-escuro: #34495e;
+  --cor-cinza-claro: #d5dbdb;
+  --cor-cinza-escuro: #2c3e50;
+  --cor-branco: #ffffff;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-azul-claro);
+  color: var(--cor-azul-escuro);
+}
+
+:root {
+  --cor-azul-meia-noite: #2c3e50;
+  --cor-azul-escuro-profundo: #17202a;
+  --cor-cinza-claro: #d5dbdb;
+  --cor-cinza-escuro: #34495e;
+  --cor-preto: #000000;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-azul-meia-noite);
+  color: var(--cor-cinza-claro);
+}
+
+:root {
+  --cor-azul-principal: #3498db;
+  --cor-azul-secundaria: #2980b9;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #34495e;
+  --cor-branco: #ffffff;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-cinza-claro);
+  color: var(--cor-cinza-escuro);
+}
+
+:root {
+  --cor-azul-principal: #3498db;
+  --cor-azul-secundaria: #2980b9;
+  --cor-laranja: #e67e22;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-branco: #ffffff;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-cinza-claro);
+  color: var(--cor-azul-secundaria);
+}
+
+:root {
+  --cor-roxo-principal: #9b59b6;
+  --cor-roxo-secundaria: #8e44ad;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #34495e;
+  --cor-branco: #ffffff;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-cinza-claro);
+  color: var(--cor-cinza-escuro);
+}
+
+:root {
+  --cor-azul-escuro-principal: #34495e;
+  --cor-azul-escuro-secundaria: #2c3e50;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #95a5a6;
+  --cor-preto: #000000;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-azul-escuro-principal);
+  color: var(--cor-cinza-claro);
+}
+
+:root {
+  --cor-cinza-principal: #2c3e50;
+  --cor-cinza-secundaria: #34495e;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #95a5a6;
+  --cor-preto: #000000;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-cinza-principal);
+  color: var(--cor-cinza-claro);
+}
+
+:root {
+  --cor-vermelho-escuro: #c0392b;
+  --cor-vermelho-mais-escuro: #96281b;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #95a5a6;
+  --cor-preto: #000000;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-preto);
+  color: var(--cor-cinza-claro);
+}
+
+:root {
+  --cor-azul-escuro: #2c3e50;
+  --cor-azul-mais-escuro: #34495e;
+  --cor-cinza-claro: #ecf0f1;
+  --cor-cinza-escuro: #95a5a6;
+  --cor-preto: #000000;
+}
+
+/* Exemplo de uso: */
+body {
+  background-color: var(--cor-azul-escuro);
+  color: var(--cor-cinza-claro);
+  border-color: var(
+    --cor-azul-mais-escuro
+  ); /* Para adicionar um toque de azul em bordas, por exemplo */
+}

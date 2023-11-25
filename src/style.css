@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #f2f0ed;
+  --primary-dark-color: #676e6e;
+  --secondary-color: #67aaf9;
+  --secondary-dark-color: #073855;
+  --tertiary-color: #fb3640;
+  --tertiary--dark-color: #7f2833;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.8rem;
+  background-color: var(--secondary-dark-color);
+  min-height: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--primary-color);
+}

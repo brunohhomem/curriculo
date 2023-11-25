@@ -1,0 +1,24 @@
+/* :root {
+  --primary-color: #f2f0ed;
+  --primary-dark-color: #676e6e;
+  --secondary-color: #67aaf9;
+  --secondary-dark-color: #073855;
+  --tertiary-color: #fb3640;
+  --tertiary--dark-color: #7f2833;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tertiary--dark-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tertiary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+} */
