@@ -4,12 +4,12 @@
 }
 
 :root {
-  --primary-color: #f2f0ed;
-  --primary-dark-color: #676e6e;
-  --secondary-color: #67aaf9;
-  --secondary-dark-color: #073855;
-  --tertiary-color: #fb3640;
-  --tertiary--dark-color: #7f2833;
+  --primary-color: #faf9f4;
+  --primary-dark-color: #cfcdce;
+  --secondary-color: #a3b3c1;
+  --secondary-dark-color: #6a8493;
+  --tertiary-color: #3b4856;
+  --tertiary-dark-color: #5bc0eb;
 }
 
 header {
@@ -34,4 +34,11 @@ nav {
 .nav-item {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.nav-item:hover {
+  color: var(--tertiary-dark-color);
+  transition: 0.4s;
+  text-decoration: underline;
+  font-size: 110%;
 }
