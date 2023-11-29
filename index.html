@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Bruno H. Homem</title>
   </head>
   <body>
@@ -19,12 +19,24 @@
           <a href="#" class="nav-item">projects</a>
           <a href="#" class="nav-item">contact</a>
           <a href="#" class="nav-item">blog</a>
+
+          <div class="languages">
+            <a href="index.html" onclick="changeLanguage('en')">English</a>
+            <a href="index.html" onclick="changeLanguage('ptbr')">Pt-BR</a>
+          </div>
         </nav>
       </header>
-      <div class="container-content">
-        <h2>Olá mundo</h2>
-        <h3>Bem vindo!</h3>
-      </div>
+
+      <main>
+        <section class="home">
+          <h1 data-i18n="welcome_message"></h1>
+        </section>
+
+        <section class="about">
+          <p data-i18n="about"></p>
+        </section>
+      </main>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
