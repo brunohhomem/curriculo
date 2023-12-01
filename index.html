@@ -8,16 +8,17 @@
   </head>
   <body>
     <div class="container-main">
+      <!--Header-->
       <header>
         <div class="container-profile">
           <h1>Bruno H. Homem - DEV</h1>
           <!--Talvez coloque uma imagem aqui, nao decidi ainda-->
         </div>
         <nav class="menu">
-          <a href="#" class="nav-item">home</a>
-          <a href="#" class="nav-item">who am I</a>
-          <a href="#" class="nav-item">projects</a>
-          <a href="#" class="nav-item">contact</a>
+          <a href="#" class="nav-item" data-i18n="nav-home"></a>
+          <a href="#" class="nav-item" data-i18n="nav-about"></a>
+          <a href="#" class="nav-item" data-i18n="nav-projects"></a>
+          <a href="#" class="nav-item" data-i18n="nav-contact"></a>
           <a href="#" class="nav-item">blog</a>
 
           <div class="languages">
@@ -26,7 +27,7 @@
           </div>
         </nav>
       </header>
-
+      <!--Main-->
       <main>
         <section class="home">
           <h1 data-i18n="welcome_message"></h1>
@@ -35,8 +36,21 @@
         <section class="about">
           <p data-i18n="about"></p>
         </section>
+
+        <section class="projects">
+          <p data-i18n="projects"></p>
+        </section>
+
+        <section class="contact">
+          <p data-i18n="contact"></p>
+        </section>
       </main>
+      <!--Footer-->
+      <footer>
+        <p data-i18n="footer_text"></p>
+      </footer>
     </div>
+    <a class="back-to-top" onclick="scrollToTop()">^</a>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

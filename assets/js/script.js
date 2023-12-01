@@ -24,7 +24,6 @@ async function changeLanguage(lang) {
 
   const langData = await fetchLanguageData(lang)
   updateContent(langData)
-  toggleArabicStylesheet(lang) // Toggle Arabic stylesheet
 }
 
 // Call updateContent() on page load
@@ -32,5 +31,19 @@ window.addEventListener('DOMContentLoaded', async () => {
   const userPreferredLanguage = localStorage.getItem('language') || 'pt-BR'
   const langData = await fetchLanguageData(userPreferredLanguage)
   updateContent(langData)
-  toggleArabicStylesheet(userPreferredLanguage)
+})
+
+// Button back to top
+const backToTopButton = document.querySelector('.back-to-top')
+
+const backToTop = () => {
+  if (window.scrollY >= 100) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+window.addEventListener('scroll', function () {
+  backToTop()
 })

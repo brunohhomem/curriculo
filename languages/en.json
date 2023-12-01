@@ -1,5 +1,12 @@
 {
+  "nav-home":"home",
+  "nav-about":"about",
+  "nav-projects":"projects",
+  "nav-contact":"contact",
   "welcome_message": "Welcome to Our Website!",
   "about": "Learn more about us...",
+  "projects": "very soon",
+  "contact": "can you find me?",
   "footer_text": "© 2023 All rights reserved."
 }
+

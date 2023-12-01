@@ -1,5 +1,11 @@
 {
+  "nav-home":"início",
+  "nav-about":"sobre mim",
+  "nav-projects":"projetos",
+  "nav-contact":"contato",
   "welcome_message": "Bem vindo",
   "about": "Saiba mais",
+  "projects": "novidades em breve",
+  "contact": "onde está carmem sandiego?",
   "footer_text": "© 2023 Todos os direitos reservados"
 }
