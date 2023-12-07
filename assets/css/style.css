@@ -18,11 +18,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--tertiary--dark-color);
+  background: var(--secondary-dark-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--tertiary-color);
+  background: var(--primary-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -91,28 +91,13 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
+  height: 100vh;
 
   background-color: var(--primary-dark-color);
-
-  border: 2px blue solid;
 }
 
 main > section {
-  display: flex;
-  border: 1px red solid;
-  height: 40vh;
-  width: 98vw;
-
-  margin-top: 5px;
-  margin-bottom: 5px;
-
-  background-color: wheat;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
-}
-
-.home {
   display: flex;
   border: none;
   height: auto;
@@ -123,6 +108,8 @@ main > section {
   justify-content: center;
   margin-top: 5px;
   margin-bottom: 5px;
+
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .home > h1 {
@@ -131,23 +118,34 @@ main > section {
   padding: 5px;
 }
 
-.about {
-  display: flex;
-  border: none;
-  height: auto;
-  width: 98vw;
-
-  background-color: var(--primary-color);
-  align-items: center;
-  justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .about > p {
   text-align: justify;
   text-wrap: wrap;
   padding: 5px;
+}
+
+#my-projects-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-projects-list a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#my-projects-list a:hover {
+  color: var(--tertiary-color);
+  text-shadow: -5px 3px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+  text-decoration: underline;
+  font-size: 110%;
 }
 
 footer {
