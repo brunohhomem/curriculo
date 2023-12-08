@@ -15,15 +15,19 @@
           <!--Talvez coloque uma imagem aqui, nao decidi ainda-->
         </div>
         <nav class="menu">
-          <a href="#" class="nav-item" data-i18n="nav-home"></a>
-          <a href="#" class="nav-item" data-i18n="nav-about"></a>
-          <a href="#" class="nav-item" data-i18n="nav-projects"></a>
-          <a href="#" class="nav-item" data-i18n="nav-contact"></a>
-          <a href="#" class="nav-item">blog</a>
+          <a href="#" class="nav-item links" data-i18n="nav-home"></a>
+          <a href="#" class="nav-item links" data-i18n="nav-about"></a>
+          <a href="#" class="nav-item links" data-i18n="nav-projects"></a>
+          <a href="#" class="nav-item links" data-i18n="nav-contact"></a>
+          <a href="#" class="nav-item links">blog</a>
 
           <div class="languages">
-            <a href="index.html" onclick="changeLanguage('en')">English</a>
-            <a href="index.html" onclick="changeLanguage('ptbr')">Pt-BR</a>
+            <a href="index.html" onclick="changeLanguage('en')" class="links"
+              >English</a
+            >
+            <a href="index.html" onclick="changeLanguage('ptbr')" class="links"
+              >Pt-BR</a
+            >
           </div>
         </nav>
       </header>
@@ -37,9 +41,31 @@
           <p data-i18n="about"></p>
         </section>
 
-        <section id="projects" class="fourth-section">
-          <!-- <p data-i18n="projects"></p> -->
-          <div id="my-projects-list"></div>
+        <section class="projects">
+          <p data-i18n="projects"></p>
+
+          <div class="cards">
+            <div class="card">
+              <a href="https://github.com/brunohhomem/chess-system-java" class="links" target="_blank">
+                <h2>Xadrez</h2>
+                <p>Jogo de xadrez feito em Java</p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="https://github.com/brunohhomem/cardapio-backend" class="links" target="_blank">
+                <h2>Cardápio Back-End</h2>
+                <p>Back-end de um cardápio</p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="https://github.com/brunohhomem/cardapio-frontend" class="links" target="_blank">
+              <h2>Cardápio Front-End</h2>
+              <p>Front-end de um cardápio</p>
+              <a href="" class="links"></a>
+            </div>
+          </div>
         </section>
 
         <section class="contact">
@@ -69,8 +95,6 @@
     <a href="#" class="back-to-top">
       <img src="/assets/imgs/arrow-up.svg" alt="back-to-top" class="logo" />
     </a>
-
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -59,8 +59,11 @@ nav {
   flex-wrap: wrap;
 }
 
-.nav-item {
+.links {
   text-decoration: none;
+}
+
+.nav-item {
   color: var(--primary-color);
 }
 
@@ -79,12 +82,9 @@ nav {
   gap: 1rem;
   flex-wrap: wrap;
   padding: 0.8rem;
-
-  text-decoration: none;
 }
 
 .languages > a {
-  text-decoration: none;
   color: blue;
 }
 
@@ -124,28 +124,47 @@ main > section {
   padding: 5px;
 }
 
-#my-projects-list {
+.projects {
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  padding: 1rem;
+  flex-direction: column;
+}
+
+.projects > p {
+  font-weight: bold;
+  margin: 10px 10px 10px 10px;
+}
+
+.cards {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#my-projects-list a {
-  text-decoration: none;
-  color: var(--secondary-color);
-  font-weight: bold;
-  letter-spacing: 2px;
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 300px;
+  transition: all 0.3s ease-out;
+
+  border-left: 3px solid var(--secondary-dark-color);
 }
 
-#my-projects-list a:hover {
-  color: var(--tertiary-color);
-  text-shadow: -5px 3px 10px rgba(0, 0, 0, 0.5);
-  transition: 0.4s;
-  text-decoration: underline;
-  font-size: 110%;
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  border-left: 3px solid var(--tertiary-color);
+}
+
+.card h2 {
+  color: black;
+  font-size: 25px;
+}
+
+.card p {
+  color: var(--primary-dark-color);
+  font-size: 16px;
 }
 
 footer {
