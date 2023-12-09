@@ -46,11 +46,6 @@ header {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-.container-profile > h1 {
-  text-shadow: -5px 3px 10px rgba(0, 0, 0, 0.5);
-  color: #faf9f4;
-}
-
 nav {
   display: flex;
   gap: 2rem;
@@ -84,8 +79,9 @@ nav {
   padding: 0.8rem;
 }
 
-.languages > a {
-  color: blue;
+.flags {
+  height: 25px;
+  width: 25px;
 }
 
 main {
