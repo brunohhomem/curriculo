@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.links {
+  text-decoration: none;
+}
+
 :root {
   --primary-color: #e5e5e5;
   --primary-dark-color: #8d99ae;
@@ -36,11 +40,10 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  padding: 0.8rem;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 0.5rem;
   background-color: var(--secondary-dark-color);
   min-height: 15%;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
@@ -48,18 +51,16 @@ header {
 
 nav {
   display: flex;
+  margin-left: 10px;
   gap: 2rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.links {
-  text-decoration: none;
+  width: 400px;
 }
 
 .nav-item {
   color: var(--primary-color);
+  padding: 0;
 }
 
 .nav-item:hover {
@@ -96,7 +97,7 @@ main {
 main > section {
   display: flex;
   border: none;
-  height: auto;
+  /* height: auto; */
   width: 98vw;
 
   background-color: var(--primary-color);
@@ -106,6 +107,18 @@ main > section {
   margin-bottom: 5px;
 
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  min-height: 350px;
+  gap: 2rem;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 275px;
 }
 
 .home > h1 {
